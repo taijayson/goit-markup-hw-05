@@ -508,6 +508,10 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+.footer__link-color {
+  fill: var(--hero-color);
+}
+
 /* ========== END FOOTER ========== */
 
 /* ========== BACKDROP ========== */
