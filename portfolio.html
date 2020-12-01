@@ -20,28 +20,37 @@
             Studio
           </a>
     
-          <ul class="navigation__list list">
-            <li class="navigation__list-item">
-              <a class="navigation__list-link link" href="index.html">Студия</a>
-            </li>
-            <li class="navigation__list-item">
-              <a class="navigation__list-link link" href="portfolio.html">Портфолио</a>
-            </li>
-            <li class="navigation__list-item">
-              <a class="navigation__list-link link" href="">Контакты</a>
-            </li>
-          </ul>
+        <ul class="navigation__list list">
+          <li class="navigation__list-item">
+            <a class="navigation__list-link link" href="index.html">Студия</a>
+          </li>
+          <li class="navigation__list-item">
+            <a class="navigation__list-link link item" href="portfolio.html"><span class="navigation__list-underline"></span>Портфолио</a>
+          </li>
+          <li class="navigation__list-item">
+            <a class="navigation__list-link link" href="">Контакты</a>
+          </li>
+        </ul>
         </nav>
-        <div class="header__address">
-          <address class="address">
+        <address class="address">
+          <div class="header__address">
             <ul class="address__list list">
               <li class="address__list-item">
-                <a class="address__list-link link" href="mailto:info@example.com">info@example.com</a>
+                <a class="address__list-link link" href="mailto:info@example.com">
+                  <svg class="header__address-svg">
+                    <use href="./images/sprite.svg#mail"></use>
+                  </svg>
+                  info@example.com</a>
               </li>
               <li class="address__list-item">
-                <a class="address__list-link link" href="tel:+380991111111">+38 099 111 11 11</a>
+                <a class="address__list-link link" href="tel:+380991111111">
+                  <svg class="header__address-svg">
+                    <use href="./images/sprite.svg#smartphone"></use>
+                  </svg>
+                  +38 099 111 11 11</a>
               </li>
             </ul>
+          </div>
           </address>
         </div>
       </div>
