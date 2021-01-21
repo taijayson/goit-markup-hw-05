@@ -189,7 +189,7 @@ img {
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/main/hero.jpg);
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -445,7 +445,7 @@ img {
 }
 
 .clients__list-link:hover .clients__list-svg,
-.clients__list-link:focus .clients_list-svg {
+.clients__list-link:focus .clients__list-svg {
   fill: var(--accent-color);
 }
 
